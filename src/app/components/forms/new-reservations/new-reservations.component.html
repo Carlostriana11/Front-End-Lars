@@ -1,0 +1,26 @@
+
+    <form class="form" [formGroup]="newReservation" (ngSubmit)="createOneReservation()" >
+
+        <div class="form-group">
+            <input  formControlName="guestName" placeholder="User Name Huésped">
+        </div>
+
+        <div class="form-group">
+            
+            <input formControlName="roomNumber" type="number" placeholder="Number Room">
+        </div>
+        <div class="form-group">
+            <input formControlName="guestEmail" placeholder="guest email">
+        </div>
+        <div class="form-group">
+            <label for="startDate">Fecha de Inicio:</label>
+            <input formControlName="startDate" type="date">
+        </div>
+        <div class="form-group">
+            <label for="endDate">Fecha de Fin:</label>
+            <input formControlName="endDate" type="date">
+        </div>
+        <div class="form-group">
+            <button type="submit">Send Reservation</button>
+        </div>
+    </form>

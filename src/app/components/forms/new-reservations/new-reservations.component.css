@@ -1,0 +1,40 @@
+.form{
+    margin: 0 auto;
+    width: 20rem;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    border: 1px solid black;
+    padding: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 2px 3px 64px #2385b6;
+}
+.form-group{
+    padding: .5rem 0 ;
+}
+.form-group input{
+    display: block;
+    margin: 0 auto;
+}
+.form-group label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    height: 2rem;
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+input{
+    width: 85%;
+    height: 3rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+input::placeholder {
+    text-align: center;
+    color: black;
+}

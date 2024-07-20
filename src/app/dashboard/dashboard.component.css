@@ -1,0 +1,8 @@
+section{
+    background: url("https://www.actualidadiphone.com/wp-content/uploads/2015/09/fondos-de-pantalla-de-paisajes-11.jpeg")no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 6rem;
+}
